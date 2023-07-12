@@ -1,0 +1,19 @@
+// Define color variables
+$redColor: #990000;
+$lightRedColor: #fdbcb4;
+$yellowColor: #ffffe0;
+$greenColor: #1b4d3e;
+$lightGreenColor: #ace1af;
+$blueColor: #468fea;
+$lightBlueColor: #afdbf5;
+
+// Export color variables as a Sass map
+$colors: (
+  redColor: $redColor,
+  lightRedColor: $lightRedColor,
+  yellowColor: $yellowColor,
+  greenColor: $greenColor,
+  lightGreenColor: $lightGreenColor,
+  blueColor: $blueColor,
+  lightBlueColor: $lightBlueColor,
+);
