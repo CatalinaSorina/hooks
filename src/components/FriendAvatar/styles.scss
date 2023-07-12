@@ -1,0 +1,22 @@
+@import "_theme";
+
+.friendContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100px;
+  justify-content: space-between;
+
+  p {
+    font-size: small;
+    margin: 5px 0;
+  }
+}
+
+.online p:first-of-type {
+  color: map-get($colors, lightGreenColor);
+}
+
+.offline p:first-of-type {
+  color: map-get($colors, lightRedColor);
+}
