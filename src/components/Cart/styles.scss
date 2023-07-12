@@ -1,0 +1,42 @@
+@import "_theme";
+
+.cart {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  height: 240px;
+  margin-right: 5rem;
+
+  button {
+    justify-content: space-between;
+    padding: 5px;
+  }
+}
+
+.cartItems {
+  display: flex;
+  justify-content: flex-start;
+  gap: 10px;
+}
+
+.cartItem {
+  width: 120px !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between !important;
+  margin: 0;
+  border: 1px solid map-get($colors, blueColor);
+  border-radius: 3px;
+  font-size: small;
+
+  button {
+    align-self: flex-end;
+    min-width: 35px;
+    margin-right: -10px;
+    border: 0;
+
+    &:hover {
+      border: 0;
+    }
+  }
+}
